@@ -3,7 +3,13 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: Introduction
+    chapters:
+    - file: content/intro/why.md
+  - caption: Space
+    chapters:
+    - file: content/space/20230303_RocketEquation.ipynb
+  - caption: Simulation
+    chapters:
+    - file: content/fem/20240615_smeared_fracture_model.ipynb
